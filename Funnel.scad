@@ -1,3 +1,4 @@
+// funnel() module originally taken from http://www.thingiverse.com/thing:40719/#files
 module funnel(height, mouthRadius, midRadius, midHeight, tipRadius, lipHeight, thickness=0.03125, facets=50) {
   union() {
     // lip of outer cone
